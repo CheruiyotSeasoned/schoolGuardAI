@@ -46,15 +46,5 @@ It’s built to be modular, deployable, and powerful — and it also powers ente
   "confidence": 0.92,
   "timestamp": "2025-06-25T12:44:00Z"
 }
-# Step 1: Clone
-git clone https://github.com/your-profile/schoolguard-ai.git
-cd schoolguard-ai
+---
 
-# Step 2: Setup Docker services
-docker-compose -f docker-compose.edge.yml up
-
-# Step 3: Run ML Inference
-python ml_rtsp_consumer.py
-
-# Step 4: Run FastAPI Event API
-uvicorn fastapi_event_api:app --reload
