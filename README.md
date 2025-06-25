@@ -46,7 +46,6 @@ It’s built to be modular, deployable, and powerful — and it also powers ente
   "confidence": 0.92,
   "timestamp": "2025-06-25T12:44:00Z"
 }
-## How to Run (Dev Mode)
 # Step 1: Clone
 git clone https://github.com/your-profile/schoolguard-ai.git
 cd schoolguard-ai
